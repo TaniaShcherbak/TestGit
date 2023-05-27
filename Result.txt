@@ -1,0 +1,38 @@
+C:\Users\Oleg\Desktop\Git\TestGit>git log
+commit 3bd31491aea85f89e967504fb0148e0f2b652788 (HEAD -> main, origin/main, origin/HEAD)
+Author: TaniaShcherbak <107945515+TaniaShcherbak@users.noreply.github.com>
+Date:   Sat May 27 13:19:07 2023 +0300
+
+    Create Description
+
+commit 505ce03fa1ea52762cd5bd312c9f7dde0dace7ec
+Merge: e7b4b3d e2610a5
+Author: TaniaShcherbak <fabrika7km@gmail.com>
+Date:   Sat May 27 13:12:49 2023 +0300
+
+    Merge branch 'Branch_1'
+
+commit e7b4b3d14c84346aeb51deabd0e8975112257283
+Author: TaniaShcherbak <fabrika7km@gmail.com>
+Date:   Sat May 27 13:11:47 2023 +0300
+
+    change index.htm
+
+commit e2610a55698b97f56214ab84e47cecb38b00996e (origin/Branch_1, Branch_1)
+Author: TaniaShcherbak <fabrika7km@gmail.com>
+Date:   Sat May 27 13:04:29 2023 +0300
+
+    change index.html
+
+commit 8f4512880f46b3e9e99eca56574caa2eca5da36b
+Author: TaniaShcherbak <fabrika7km@gmail.com>
+Date:   Sat May 27 13:02:33 2023 +0300
+
+
+C:\Users\Oleg\Desktop\Git\TestGit>git log --merges
+commit 505ce03fa1ea52762cd5bd312c9f7dde0dace7ec
+Merge: e7b4b3d e2610a5
+Author: TaniaShcherbak <fabrika7km@gmail.com>
+Date:   Sat May 27 13:12:49 2023 +0300
+
+    Merge branch 'Branch_1'
