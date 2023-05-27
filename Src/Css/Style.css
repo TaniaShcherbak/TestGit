@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.half {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.first-half {
+    left: 0;
+    background-color: #f1f1f1;
+}
+
+.second-half {
+    left: 50%;
+    background-color: #e5e5e5;
+}
+
+.switched .first-half {
+    transform: translateX(100%);
+}
+
+.switched .second-half {
+    transform: translateX(-100%);
+
+}
+
+.switch-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.switch-button:hover {
+    cursor: pointer;
+}

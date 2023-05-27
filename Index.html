@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Test</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form">
+
+
+            <div class="half first-half">
+                <p>
+                    Контент первой половины формы
+                </p>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="half second-half ">
+            <p>
+                Контент второй половины формы
+            </p>
+
+        </div>
+
+
+        <button class="switch-button">Сменить половины</button>
+    </div>
+    <script>
+        const switchButton = document.querySelector('.switch-button');
+        const form = document.querySelector('.form');
+
+        switchButton.addEventListener('click', function () {
+            form.classList.toggle('switched');
+        });</script>
+</body>
+
+</html>
